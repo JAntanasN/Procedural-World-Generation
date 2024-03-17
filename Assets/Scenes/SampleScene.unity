@@ -993,6 +993,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 645144539}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1052589068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1052589070}
+  - component: {fileID: 1052589069}
+  m_Layer: 0
+  m_Name: Generator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1052589069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052589068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31f440ea9e9ac4fdb82c02070e203381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  size:
+    x: 50
+    y: 50
+  height: 10
+  seed: 0
+  scale: 25
+  humidityScale: 10
+  temperatureScale: 40
+  grassPrefab: {fileID: 7573317051036414084, guid: f8bfcf6c1d7844109bef3898e04962e0,
+    type: 3}
+  dirtPrefab: {fileID: 4933391383425906737, guid: f347c3ca9b46444e1b35b955f2daf260,
+    type: 3}
+  sandPrefab: {fileID: 7290921250753719700, guid: 019a929c727ce4f8db2122ed3bde69b4,
+    type: 3}
+  icePrefab: {fileID: 6892979228298636058, guid: e87ca3b45e2dd420998a23c6de1f206e,
+    type: 3}
+  waterPrefab: {fileID: 3370912183191171369, guid: a247bf58029294ee791d443471165bff,
+    type: 3}
+--- !u!4 &1052589070
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052589068}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 48.328144, y: 44.457092, z: 21.458138}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1198627090
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1177,7 +1239,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1783885471
 Transform:
   m_ObjectHideFlags: 0
@@ -1224,3 +1286,4 @@ SceneRoots:
   - {fileID: 645144539}
   - {fileID: 650964188}
   - {fileID: 1783885471}
+  - {fileID: 1052589070}
